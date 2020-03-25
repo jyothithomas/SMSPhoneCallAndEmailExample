@@ -28,7 +28,7 @@ class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate
         {
             let picker = MFMailComposeViewController()
             picker.mailComposeDelegate = self
-            picker.setToRecipients(["pritam.world@gmail.com"])
+            picker.setToRecipients(["jyothithomas.05@gmail.com"])
             picker.setSubject(subject.text!)
             picker.setMessageBody(body.text!, isHTML: true)
             
